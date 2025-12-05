@@ -1,1 +1,14 @@
+# Java Hello Example
 
+This repository contains a minimal Java program that prints `hello` to standard output.
+
+## Building and Running
+
+1. Compile the program to the `out` directory:
+   ```sh
+   javac -d out src/Hello.java
+   ```
+2. Run the compiled class:
+   ```sh
+   java -cp out Hello
+   ```
